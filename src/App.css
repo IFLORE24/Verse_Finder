@@ -1,0 +1,41 @@
+body{
+  text-align: center;
+}
+
+input[type="text"]{
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #000000;
+  box-shadow: 0 0 8px rgba(73, 73, 77, 0.2);
+}
+
+.results-container {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.bible-verse {
+  background: #fdfdfd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  font-family: 'Georgia', serif; /* Classic Bible font */
+  line-height: 1.8;
+  color: #2c3e50;
+}
+
+.bible-verse h2 {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
