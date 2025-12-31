@@ -1,11 +1,16 @@
 import React, { useState } from "react"
 import './App.css';
 
+const API_BASE_URL = window.location.hostname === "localhost" 
+  ? "http://localhost:10000" 
+  : "https://verse-finder-api.onrender.com";
+
 function App() {
   const [topic, setTopic] = useState("");
   const [results, setResults] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(""); 
+
 
 
   const handleSearch = async () => {
@@ -14,7 +19,7 @@ function App() {
     if(topic != ""){
       setIsLoading(true);
       try{
-        const response = await fetch("http://localhost:3000/api/search", {
+        const response = await fetch(`${API_BASE_URL}/api/search`, {
           method: "POST",
           headers: {"Content-Type": "application/json"},
           body: JSON.stringify({topic: topic})
