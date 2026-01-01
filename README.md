@@ -8,7 +8,7 @@ The application is deployed on Render:
 https://verse-finder-pvdq.onrender.com/
 ---
 
-## Getting Started (local setup)
+##Getting Started (local setup)
 
 ### 1. Prerequisites
 Before running this project, ensure you have:
