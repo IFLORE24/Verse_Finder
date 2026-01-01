@@ -6,9 +6,10 @@
 ## Live Demo
 The application is deployed on Render:
 https://verse-finder-pvdq.onrender.com/
+Please note that using the app after a period of idleness may result in slower results due to the way that Render is set up.
 ---
 
-##Getting Started (local setup)
+## Getting Started (local setup)
 
 ### 1. Prerequisites
 Before running this project, ensure you have:
