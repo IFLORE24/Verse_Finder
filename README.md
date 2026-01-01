@@ -3,7 +3,7 @@
 **Verse Finder** is an AI-powered search tool designed to bridge the gap between your feelings and scripture. It uses **Google Gemini AI** to act as a biblical scholar, translating your personal mood or topic into specific verse references, then fetches the full text directly from the **ESV Bible API**.
 <img width="1902" height="911" alt="Verse_Finder" src="https://github.com/user-attachments/assets/9eb5a4af-9cb5-47cd-9bce-a0f43e45d16c" />
 
-##Live Demo
+## Live Demo
 The application is deployed on Render:
 https://verse-finder-pvdq.onrender.com/
 ---
